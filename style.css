@@ -1,0 +1,92 @@
+    body {
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(90deg,#833ab4,#fd1d1d,#fcb045);
+  }
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin-bottom: 0;
+  }
+  h6 {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    margin-top: 0;
+    justify-content: end;
+  }
+  
+  .calculatrice-contenaire {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 80vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(7, 100px);
+  }
+  
+  .calculatrice-contenaire > button {
+    cursor: pointer;
+    font-size: 2rem;
+    border: 1px solid black;
+    outline: none;
+    color: white;
+  }
+  
+  .calculatrice-contenaire > button:hover {
+    background-color: rgba(230, 70, 30, 0.9);
+  }
+  
+  .bouton {
+    background-color: rgba(0, 0, 0, 0.70);
+  }
+  .suppbouton {
+    background-color: rgba(189, 17, 17, 0.8);
+  }
+  .corrbouton {
+    background-color: rgba(197, 165, 20, 0.8);
+  }
+
+  .larges {
+    grid-column: span 2;
+    background-color: rgba(35, 218, 208, 0.80);
+  }
+  
+  .output {
+    grid-column: 1 / -1;
+    background-color: rgba(1, 65, 22, 0.80);
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-direction: column;
+    word-wrap: break-word;
+    word-break: break-all;
+    border: 8px solid black;
+  }
+  p{
+    font-size: 15px;
+  }
+  .output .Operation-Precedente  {
+    color: rgba(0, 0, 0, 0.747);
+    height: 20px;
+	  margin-right: auto;
+    padding-top: 2px;
+    padding-left: 2px;
+    overflow: auto;
+    font-size: 10px;
+    width: 40%;
+    height: 8em;
+  }
+  .Operation-Precedente::-webkit-scrollbar{
+    display: none;
+  }
+  
+  .output .Operation-Actuel {
+    font-size: 2.5rem;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.747);
+    font-family: 'Big Shoulders Stencil Display', cursive;
+  }
