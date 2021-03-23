@@ -1,7 +1,8 @@
 # calculator Project
+
 by Sifedine Hajji
 
-## What ? 
+## What ?
 
 The work consists in the creation of a calculator in javascript by following the steps of the repository: [becodeorg/bxl-hopper-1-25](https://github.com/becodeorg/bxl-hopper-1-25/tree/master/The%20Hill/projects/1.calculator).
 
@@ -11,24 +12,23 @@ The work was given on Monday 16th November and i finished it on wednesday 18th.
 
 ## **Functionalities :**
 
-* Simple calculation ( +, -, x, ÷ ).
-* Hitory of previus operations.
-* a few 'Scientific' Operations ( x², sin(), cos(), tan() ).
-* Conversion into percentage (%).
+- Simple calculation ( +, -, x, ÷ ).
+- Hitory of previus operations.
+- a few 'Scientific' Operations ( x², sin(), cos(), tan() ).
+- Conversion into percentage (%).
 
 ### **Functionalities that need improvements :**
 
-* the operators can be spotted
-* the 'scientific' operators applies only to a number and not to an operation.
+- the operators can be spotted
+- the 'scientific' operators applies only to a number and not to an operation.
 
 ## What does it look like ?
 
-Here is the direct link to the project i made [My calculator](https://sifedine-hajji.github.io/calculator/).
+Here is the direct link to the project i made [My calculator](https://sifedine-hajji.github.io/Scientific-calculator/./).
 
 #### project screenshot :
 
 <img src="Pics/Screenshot.PNG" alt="drawing" width="700"/>
-
 
 ## How I Proceeded ?
 
